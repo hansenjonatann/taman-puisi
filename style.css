@@ -1,0 +1,222 @@
+/* ------------Navbar----------- */
+div.container-custom{
+    max-width: 1600px;
+}
+
+.navbar-custom{
+    height: 100px;
+    box-shadow: 0 0 10px #888888;
+    background-color: #fff ;
+}
+
+.ul-custom li{
+    margin-left: 20px;
+}
+
+.ul-custom li a:hover{
+    color: #39c0de;
+}
+
+input.search-custom:focus{
+    border-color: #39c0de;
+    box-shadow: none;
+}
+
+form button.search-btn-custom{
+    color: #39c0de;
+    border-color: #39c0de;
+}
+
+.search-btn-custom:hover,
+.search-btn-custom:active{
+    border-color: #39c0de !important;
+    background-color: #39c0de !important;
+    color: white !important;
+}
+
+/* CSS BY JESEN J */
+body{
+    height: 3000px;
+    background-color: #f4f4f4 !important;
+}
+
+/* ------------Navbar----------- */
+div.container-custom{
+    max-width: 1600px;
+}
+
+.navbar-custom{
+    height: 100px;
+    box-shadow: 0 0 10px #888888;
+    background-color: #fff ;
+}
+
+.ul-custom li{
+    margin-left: 20px;
+}
+
+.ul-custom li a:hover{
+    color: #39c0de;
+}
+
+input.search-custom:focus{
+    border-color: #39c0de;
+    box-shadow: none;
+}
+
+form button.search-btn-custom{
+    color: #39c0de;
+    border-color: #39c0de;
+}
+
+.search-btn-custom:hover,
+.search-btn-custom:active{
+    border-color: #39c0de !important;
+    background-color: #39c0de !important;
+    color: white !important;
+}
+
+/* ---------Main---------- */
+#main-custom{
+    position: relative;
+    margin-bottom: 250px;
+}
+
+#main-custom::before{
+    content: "";
+    position: absolute;
+    background-image: url(image/taman.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center -430px;
+    height: 75vh;
+    width: 100%;
+    filter: brightness(35%);
+}
+
+.main-text-custom{
+    position: relative;
+    margin-top: 9% !important;
+    color: #fff;
+    font-family: montserrat;
+}
+
+.main-text-custom p{
+    font-size: 20px;
+}
+
+.garisBiru-custom{
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: #39c0de;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.main-text-custom h1{
+    font-size: 70px;
+    margin-bottom: 70px;
+}
+
+.main-text-custom h2{
+    font-size: 50px;
+    margin-top: 55px;
+}
+
+#main-custom .header-btn-custom{
+    color: white;
+    padding: 10px;
+    font-family: var(--bs-body-font-family);
+}
+
+
+
+/* --------Recommend Poetry---------- */
+/* #recommend-custom{
+    /* background-image: url(image/cardwallpaper.jpg); */
+*/
+
+.sub-title-custom{
+    font-family: Century Gothic;
+}
+
+.slide1-custom{
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    margin-top: 75px;
+}
+
+.card.card-custom{
+    border-radius: 0;
+    width: 25% !important;
+    height: 300px;
+    cursor: pointer;
+    /* background-image: url(image/cardwallpaper.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    box-shadow: 0 0 10px #888888;
+}
+
+.card.card-custom:hover{
+    transform: scale(1.1);
+    transition: transform 0.9s;
+}
+
+.slide1-custom h3{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.garisKategori-custom{
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: red;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.keteranganCard-custom{
+    margin-top: 45px;
+}
+
+.keteranganCard-custom h6{
+    margin-top: 20px;
+}
+
+/* .carousel-button-custom{
+    margin-left: 50px;
+} */
+
+.button-layout-custom-left{
+    padding-right: 120px !important;
+}
+.button-layout-custom-right{
+    padding-left: 120px !important;
+}
+
+
+/* ----------------Quotes Custom--------- */
+#quotes-custom{
+    background-color: black;
+    margin-top: 180px;
+}
+
+.quotes-text-custom{
+    display: flex;
+    color: white;
+    font-family: montserrat;
+    align-items: center !important;
+    flex-wrap: wrap;
+}
+
+.ha3-custom-ntargantinama{
+    flex-basis: 1;
+}
+
+.ha3-custom-ntargantinama2{
+    align-content: flex-end;
+}
