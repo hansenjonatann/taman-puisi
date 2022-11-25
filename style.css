@@ -1,38 +1,6 @@
 /* ------------Navbar----------- */
-div.container-custom{
-    max-width: 1600px;
-}
 
-.navbar-custom{
-    height: 100px;
-    box-shadow: 0 0 10px #888888;
-    background-color: #fff ;
-}
 
-.ul-custom li{
-    margin-left: 20px;
-}
-
-.ul-custom li a:hover{
-    color: #39c0de;
-}
-
-input.search-custom:focus{
-    border-color: #39c0de;
-    box-shadow: none;
-}
-
-form button.search-btn-custom{
-    color: #39c0de;
-    border-color: #39c0de;
-}
-
-.search-btn-custom:hover,
-.search-btn-custom:active{
-    border-color: #39c0de !important;
-    background-color: #39c0de !important;
-    color: white !important;
-}
 
 /* CSS BY JESEN J */
 body{
@@ -89,7 +57,7 @@ form button.search-btn-custom{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center -430px;
-    height: 75vh;
+    height: 80vh;
     width: 100%;
     filter: brightness(35%);
 }
@@ -219,4 +187,50 @@ form button.search-btn-custom{
 
 .ha3-custom-ntargantinama2{
     align-content: flex-end;
+}
+
+
+/* OUR TEAM */
+
+
+
+
+/* Footer */
+#crFooter {
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    
+    
+}
+
+.footerLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+}
+
+.footerLink > a{
+    color:white;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+
+.teamContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.card-body{
+    text-align: center;
+}
+
+.teamsLine{
+    width: 20px;
+    background-color: #39c0de;
 }
